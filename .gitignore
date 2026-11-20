@@ -1,0 +1,51 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded and processed datasets
+data/raw/
+data/processed/
+data/preferences/
+
+# Hugging Face caches
+.cache/
+huggingface_cache/
+models/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Training checkpoints and outputs
+checkpoints/
+outputs/
+runs/
+wandb/
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Temporary files
+*.tmp
+*.log
